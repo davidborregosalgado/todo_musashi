@@ -1,0 +1,527 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	background-color:  #fcfcdf ;
+}
+
+h1, h2, .nav {
+	font-family: 'Aubrey';
+}
+
+
+main {
+	width: 90vw;
+	text-align: left;
+	margin: auto;
+}
+
+main a {
+	text-decoration: none;
+	color:  #000000;
+}
+
+p a {
+	color: #9b1700;
+}
+
+figcaption a {
+	color: #9b1700;
+}
+
+
+
+
+/*header*/
+
+header {
+	width:100%;
+	height:300px;
+	text-align: center;
+	margin-bottom: 150px;
+	background-image: url("https://cdn.pixabay.com/photo/2016/11/29/12/12/architecture-1869398_960_720.jpg");
+	background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+	text-align: center;
+}
+
+.encabezado {
+	margin-top: 0px;
+	padding-top: 50px;
+	font-weight: bold;
+	font-size: 4rem;
+	text-decoration: none;
+	color: #fffefe;
+}
+
+.encabezado a {
+	text-decoration: none;
+	color: #fffefe;
+}
+
+.encabezado a:visited {
+	text-decoration: none;
+	color: #fffefe;
+}
+
+.pie_encabezado {
+	font-weight: bold;
+	font-size: 1rem;
+	text-decoration: none;
+	margin-top: 15px;
+	color: #fffefe;
+}
+
+.nav {
+	background-color:  #581c1c ;
+	margin-top: 40px;
+    padding-bottom: 15px;
+	width:100%;
+	height:100px;
+	
+}
+
+.nav ul li {
+	padding-top: 15px;
+	font-weight: bold;
+	font-size: 1.10rem;
+	list-style: none;
+}
+
+.nav ul li a {
+	color: #fffefe;
+	text-decoration: none;
+	border-bottom:none;
+}
+
+.nav ul li a:active {
+	font-style: italic;
+	color:  #ff0000;
+}
+
+@media screen and (min-width: 600px) {
+	header {
+		width:100%;
+		height:300px;
+		margin-bottom: 70px;
+     	align-items: center;
+		background-image: url("https://cdn.pixabay.com/photo/2016/11/29/12/12/architecture-1869398_960_720.jpg");
+	    background-position: center;
+        background-repeat: no-repeat; 
+        background-size: cover;
+	    text-align: center;
+	}
+
+    .nav {
+		height:30px;
+	}
+
+	.nav ul li {
+		display: inline-block;
+		margin-right: 30px;
+	}
+}
+
+
+
+
+
+/*main*/
+
+h1 {
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+iframe {
+	width:100%;
+	height:auto;
+	margin-bottom: 20px;
+}
+
+/*portada*/
+
+.cocinero {
+	width:100%;
+	height:auto;
+	margin-bottom: 20px;
+}
+
+.cocinero img {
+	width:100%;
+	height:auto;
+}
+
+/*¿quienes somos?*/
+
+.sake {
+	width:100%;
+	height:auto;
+	margin-bottom: 20px;
+}
+
+.sake img {
+	width:100%;
+	height:auto;
+}
+
+
+/*recetario*/
+
+.recetas {
+	width: 87vw;
+	margin: auto;
+	text-align: left;
+}
+
+.recetas div img {
+	width: 100%;
+	height: 265px;
+}
+
+
+.recetas p {
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	margin-left: 0vw;
+	margin-right: 0vw;
+}
+
+.ramen,
+.tonkatsu,
+.takoyaki,
+.yakitori {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+h2 {
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+
+
+/*recetas*/
+
+.ramen,
+.tonkatsu,
+.takoyaki,
+.yakitori  {
+	width:100%;
+	height:auto;
+	margin-bottom: 20px;
+}
+
+.ramen img {
+	width:100%;
+	height:auto;
+}
+
+.tonkatsu img {
+	width:100%;
+	height:auto;
+}
+
+.takoyaki img {
+	width:100%;
+	height:auto;
+}
+
+.yakitori img {
+	width:100%;
+	height:auto;
+}
+
+.siguiente {
+	text-align: right;
+}
+
+
+@media screen and (min-width: 600px) {
+
+/*nuevo*/
+
+main {
+	width: 65vw;
+	text-align: center;
+}
+	
+	h1 {
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.cocinero, 
+.sake, 
+.ramen,
+.tonkatsu,
+.takoyaki,
+.yakitori  {
+	width:100%;
+	height:auto;
+	margin-bottom: 20px;
+}
+
+.cocinero img {
+	width:60%;
+	height:auto;
+}
+
+.sake img {
+	width:60%;
+	height:auto;
+}
+
+.ramen img {
+	width:60%;
+	height:auto;
+}
+
+.tonkatsu img {
+	width:60%;
+	height:auto;
+}
+
+.takoyaki img {
+	width:60%;
+	height:auto;
+}
+
+.yakitori img {
+	width:60%;
+	height:auto;
+}
+
+main ul {
+	text-align: left;
+}
+
+main ul li {
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+
+iframe {
+	width:100%;
+	height:auto;
+	margin-bottom: 20px;
+	width: 632px;
+	height: 355px;
+}
+		
+	.recetas {
+		width: 100%;
+		margin: auto;
+	    display: grid;
+     	grid-template-columns: 45% 45%;
+  	    column-gap: 10%;
+    }
+	
+	div img {
+    object-fit: cover;
+    }
+	
+	h2 {
+	    font-size: 1.4rem;
+	    font-weight: 400;
+    }
+
+}
+
+
+
+
+
+
+/*footer*/
+
+footer {
+	width:100%;
+	height:130px;
+	color: #fffefe;
+	background-color:  #581c1c ;
+    font-size: 0.80rem;	 
+    margin-top: 100px;	
+}
+	
+.pie,
+.subir	{
+    margin-left: 10px;	
+    margin-right: 10px;	
+}
+	
+.pie {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 0.70rem;
+	}
+
+.subir {
+	text-align: right;
+    font-size: 1.5rem;	
+    margin-top: 0px;
+    margin-bottom: 5px;	
+	font-size: 1rem;	
+	}
+
+footer a {
+	color: #fffefe;
+    text-decoration:none;	
+}
+
+
+@media screen and (min-width: 600px) {
+	
+	footer {
+	  width:100%;
+	  height:130px;	  
+	}
+	
+	.pie {
+		text-align: left;
+	}
+	
+	.subir {
+		margin-top: 5px;		
+	}
+}
+
+/*portada*/
+
+.portada {
+	width:100%;
+	height:100vh;
+	color: white;
+	text-align: center;
+	background-image: url("https://cdn.pixabay.com/photo/2016/11/29/12/12/architecture-1869398_960_720.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+
+.headerportada {
+	width:100%;
+	height:60vh;
+	text-align: center;
+	margin-bottom: 0px;
+	background-image: none;
+	text-align: center;
+}
+
+.encabezadoportada {
+	margin-top: 0px;
+	padding-top: 10vh;
+	font-weight: bold;
+	font-size: 4rem;
+	text-decoration: none;
+	color: #fffefe;
+}
+
+.encabezadoportada a {
+	text-decoration: none;
+	color: #fffefe;
+}
+
+.encabezadoportada a:visited {
+	text-decoration: none;
+	color: #fffefe;
+}
+
+.pie_encabezadoportada {
+	font-weight: bold;
+	font-size: 1rem;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #fffefe;
+}
+
+.navportada {
+	background-color:  none;
+	margin-top: 5vh;
+	padding-bottom: 0px;
+	width:100%;
+	height:50px;
+	
+}
+
+.navportada ul li {
+	padding-top: 15px;
+	font-weight: bold;
+	font-size: 1.10rem;
+	list-style: none;
+}
+
+.navportada ul li a {
+	color: #fffefe;
+	text-decoration: none;
+	border-bottom:none;
+}
+
+.navportada ul li a:active {
+	font-style: italic;
+	color:  #ff0000;
+}
+
+.mainportada {
+	width:100%;
+  height:30vh;
+}
+
+.mainportada h1 {
+	padding-top: 5vh;
+	padding-right: 2vw;
+	padding-left: 2vw;
+}
+
+.mainportada p {
+	padding-right: 5vw;
+	padding-left: 5vw;
+}
+
+
+.footerportada {
+  width:100%;
+  height:10vh;
+  background-color: none;
+  margin-top: 0px;
+}
+
+.pieportada {
+	text-align: center;
+}
+
+.pieportada p{
+	padding-top: 1vh;
+	margin-bottom: 0px;
+}
+
+@media screen and (min-width: 600px) {
+
+	.encabezadoportada {
+		padding-top: 20vh;
+		font-size: 5rem;
+	}
+
+	.navportada ul li {
+		display: inline-block;
+	    margin-right: 30px;
+	}
+	
+	.navportada {
+		margin-top: opx;
+	}
+
+}
+
+
